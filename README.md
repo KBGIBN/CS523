@@ -4,3 +4,6 @@
 ## Members:
   - 19522255  : HOÀNG NGỌC BÁ THI
   - 1952xxxx  : TÔN THỊ HOÀNG YẾN
+
+## Seminar:
+  Our topic talks about the "Decision Tree" - a supervised learning algorithm used for both Regression and Classification problems.
