@@ -1,0 +1,11 @@
+1. Prefix Function:
+a) aaaabaacd => [0, 1, 2, 3, 0, 1, 2, 0, 0]
+b) bceebcadee => [0, 0, 0, 0, 1, 2, 0, 0, 0, 0]
+
+2. Tóm tắt KMP:
+
+Thuật toán được xây dựng dựa vào quan sát rằng một xâu con chung của S và T sẽ đưa ra được thông tin S có khớp với các vị trí sau của T hay không.
+Bởi vì xâu con chung này đồng nghĩa với một phần của T đã khớp với một phần của S, nên bằng việc khởi tạo trước một số thông tin với xâu S, ta sẽ 
+thu được những kết luận về T (nhờ xâu con chung) mà không cần quay ngược và so sánh lại những ký tự đã khớp.
+
+Cụ thể hơn, ta muốn tính toán trước cách xâu S tự khớp với chính nó. Nhờ vậy thuật toán sẽ không quay nhìn lại và chỉ duyệt qua T một lần duy nhất.
