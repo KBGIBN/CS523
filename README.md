@@ -7,5 +7,6 @@
 
 ## Seminar:
   Our topic talks about the "Decision Tree" - a supervised learning algorithm used for solving both Regression and Classification problems.
-  Documents:
+  
+  Check out these Documents:
   - https://machinelearningcoban.com/tabml_book/ch_model/decision_tree.html
