@@ -6,5 +6,5 @@
   - 19520361  : TÔN THỊ HOÀNG YẾN
 
 ## Seminar:
-  Our topic talks about the "Decision Tree" - a supervised learning algorithm used for solving both Regression and Classification problems.
+  Our topic talks about "Decision Tree" - a supervised learning algorithm used for solving both Regression and Classification problems.
 
