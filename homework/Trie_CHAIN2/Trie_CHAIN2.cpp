@@ -9,25 +9,26 @@
 using namespace std;
 
 struct TRIE{
-    bool eow;
+    bool arr;
     TRIE *F[26];
     TRIE() {
-        eow = false;
+        arr = false;
         memset(F, NULL, sizeof F);
     }
 };
 
 int update(TRIE *root, string s) {
     TRIE *crawl = root;
-    int res = 0;
+    int count = 0;
     loop(it, s) {
         int idx = it - 'a';
         if (!crawl->F[idx]) crawl->F[idx] = new TRIE;
         crawl = crawl->F[idx];
-        if (crawl->eow) res++;
+        if (crawl->arr) 
+        	count++;
     }
-    crawl->eow = true;
-    return res + 1;
+    crawl->arr = true;
+    return count + 1;
 }
 
 int main() {
