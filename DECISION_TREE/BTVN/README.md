@@ -1,5 +1,5 @@
 ## BÀI TẬP VỀ NHÀ:
-
+> Lưu cả 2 bài tập vào 1 file RAR hoặc ZIP
 ### 1. Tìm hiểu và tóm tắt thuật toán CART.
   - Nộp file WORD hoặc PDF.
   - Mô tả được cách hoạt động, ý nghĩa của các độ đo cũng như phân tích được các công thức.
